@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pasward-generater-card {
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 1px 3px rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+
+.conditon-checker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 50px;
+  font-size: 22px;
+}
+#range {
+  font-size: 24px;
+  font-weight: 900;
+}
+#range > input {
+  display: block;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: black !important;
+}
+
+#generate-btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  /* align-items: center; */
+  margin-left: 120px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+}
+#generate-btn:hover {
+  cursor: pointer;
+}
+#generate-btn:hover {
+    transform: scale(2) 1s ease;
+}
+
+/* Works in most modern browsers */
+input[type="range"] {
+  accent-color: #000000; /*Change this to any color */
+}
+/* Change checkbox tick/checkmark color */
+input[type="checkbox"] {
+  accent-color: black; /* You can set this to red, green, etc. */
+}
+
+.user-pasward {
+  background-color: black;
+  color: white;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.colour{
+  color: red;
+}
