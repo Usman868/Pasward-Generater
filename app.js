@@ -1,5 +1,4 @@
 // Pasward Generater
-
 var lengthValue = document.getElementById("length");
 var range = document.getElementById("length-range");
 var output = document.getElementById("pasward-output");
@@ -35,20 +34,22 @@ function paswardGenerater() {
   if (includeSymbols) {
     allitems += symbols;
   }
-  
+
   if (allitems === "") {
     output.innerText = "⚠ Please select at least one option!";
-    output.className += " colour"
+    output.className += " colour";
     return;
-  }else{
+  } else {
     output.className = "user-pasward";
   }
 
   var pasward = "";
-  for (var i = 0; i <= length; i++) {
+  for (var i = 0; i < length; i++) {
     var randomIndex = Math.floor(Math.random() * allitems.length);
     pasward += allitems[randomIndex];
   }
   output.innerText = pasward;
 }
+
+
 
