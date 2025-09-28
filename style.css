@@ -75,9 +75,11 @@ input[type="checkbox"] {
   text-align: center;
   margin: auto;
   padding: 20px 0px;
+  min-heigth: 50px
 }
 
 .colour{
   color: red;
 
 }
+
