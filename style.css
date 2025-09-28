@@ -56,9 +56,6 @@ h1 {
 #generate-btn:hover {
   cursor: pointer;
 }
-#generate-btn:hover {
-    transform: scale(2) 1s ease;
-}
 
 /* Works in most modern browsers */
 input[type="range"] {
@@ -70,9 +67,10 @@ input[type="checkbox"] {
 }
 
 .user-pasward {
+  width: 98%;
   background-color: black;
   color: white;
-  font-size: 34px;
+  font-size: 25px;
   font-weight: 900;
   text-align: center;
   margin: auto;
@@ -81,4 +79,5 @@ input[type="checkbox"] {
 
 .colour{
   color: red;
+
 }
