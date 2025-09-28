@@ -20,7 +20,7 @@ function paswardGenerater() {
   var lo_Case = "abcdefghijklmnopqrstuvwxyz";
   var up_Case = lo_Case.toUpperCase();
   var numbers = 1234567890;
-  var symbols = "! @ # $ % ^ & * - _ +";
+  var symbols = "!@#$%^&*-_+";
   var allitems = "";
 
   if (includeUppercase) {
@@ -45,9 +45,10 @@ function paswardGenerater() {
   }
 
   var pasward = "";
-  for (var i = 0; i < length; i++) {
+  for (var i = 0; i <= length; i++) {
     var randomIndex = Math.floor(Math.random() * allitems.length);
     pasward += allitems[randomIndex];
   }
   output.innerText = pasward;
 }
+
